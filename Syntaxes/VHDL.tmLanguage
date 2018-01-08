@@ -101,7 +101,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.architecture.begin.vhdl</string>
+							<string>entity.name.architecture.begin.vhdl</string>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -116,7 +116,7 @@
 						<key>7</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.entity.reference.vhdl</string>
+							<string>entity.name.entity.reference.vhdl</string>
 						</dict>
 						<key>8</key>
 						<dict>
@@ -153,7 +153,7 @@
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.architecture.end.vhdl</string>
+							<string>entity.name.architecture.end.vhdl</string>
 						</dict>
 						<key>7</key>
 						<dict>
@@ -508,7 +508,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.component.begin.vhdl</string>
+							<string>entity.name.component.begin.vhdl</string>
 						</dict>
 						<key>4</key>
 						<dict>
@@ -552,7 +552,7 @@
 						<key>7</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.component.end.vhdl</string>
+							<string>entity.name.component.end.vhdl</string>
 						</dict>
 						<key>8</key>
 						<dict>
@@ -715,7 +715,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.section.entity_instantiation.vhdl</string>
+							<string>entity.name.type.entity_instantiation.vhdl</string>
 						</dict>
 						<key>10</key>
 						<dict>
@@ -868,7 +868,7 @@
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.entity.end.vhdl</string>
+							<string>entity.name.entity.end.vhdl</string>
 						</dict>
 						<key>7</key>
 						<dict>
@@ -1115,7 +1115,7 @@
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.function.end.vhdl</string>
+							<string>entity.name.section.function.end.vhdl</string>
 						</dict>
 						<key>7</key>
 						<dict>
@@ -2013,7 +2013,7 @@
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.section.process.begin.vhdl</string>
+							<string>entity.name.type.process.begin.vhdl</string>
 						</dict>
 						<key>3</key>
 						<dict>
