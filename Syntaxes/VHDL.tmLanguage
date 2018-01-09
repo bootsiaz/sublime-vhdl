@@ -440,7 +440,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.section.component_instantiation.vhdl</string>
+							<string>entity.name.type.component_instantiation.vhdl</string>
 						</dict>
 						<key>2</key>
 						<dict>
