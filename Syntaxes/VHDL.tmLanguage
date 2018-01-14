@@ -1900,7 +1900,7 @@
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.procedure.end.vhdl</string>
+							<string>entity.name.procedure.end.vhdl</string>
 						</dict>
 						<key>7</key>
 						<dict>

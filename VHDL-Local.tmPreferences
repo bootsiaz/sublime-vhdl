@@ -5,7 +5,7 @@
    <key>name</key>
    <string>Symbol List</string>
    <key>scope</key>
-   <string>entity.name.function.function.begin.vhdl, entity.name.function.function.prototype.vhdl, entity.name.type.process.begin.vhdl, entity.name.type.record.vhdl, entity.name.type.subtype.vhdl, entity.name.type.type.vhdl, entity.name.type.entity_instantiation.vhdl, entity.name.type.component_instantiation.vhdl</string>
+   <string>entity.name.function.procedure.begin.vhdl, entity.name.function.function.begin.vhdl, entity.name.function.function.prototype.vhdl, entity.name.type.process.begin.vhdl, entity.name.type.record.vhdl, entity.name.type.subtype.vhdl, entity.name.type.type.vhdl, entity.name.type.entity_instantiation.vhdl, entity.name.type.component_instantiation.vhdl</string>
    <key>settings</key>
    <dict>
       <key>showInSymbolList</key>
