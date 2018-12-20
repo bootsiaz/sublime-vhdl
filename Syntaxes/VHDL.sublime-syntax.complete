@@ -928,43 +928,39 @@ contexts:
           pop: true
         - include: cleanup
   support_constants:
-    #- match: \b(?i:math_1_over_e|math_1_over_pi|math_1_over_sqrt_2|math_2_pi|math_3_pi_over_2|math_deg_to_rad|math_e|math_log10_of_e|math_log2_of_e|math_log_of_10|math_log_of_2|math_pi|math_pi_over_2|math_pi_over_3|math_pi_over_4|math_rad_to_deg|math_sqrt_2|math_sqrt_pi)\b
-    #  scope: support.constant.ieee.math_real.vhdl
-    #- match: \b(?i:math_cbase_1|math_cbase_j|math_czero|positive_real|principal_value)\b
-    #  scope: support.constant.ieee.math_complex.vhdl
+    - match: \b(?i:math_1_over_e|math_1_over_pi|math_1_over_sqrt_2|math_2_pi|math_3_pi_over_2|math_deg_to_rad|math_e|math_log10_of_e|math_log2_of_e|math_log_of_10|math_log_of_2|math_pi|math_pi_over_2|math_pi_over_3|math_pi_over_4|math_rad_to_deg|math_sqrt_2|math_sqrt_pi)\b
+      scope: support.constant.ieee.math_real.vhdl
+    - match: \b(?i:math_cbase_1|math_cbase_j|math_czero|positive_real|principal_value)\b
+      scope: support.constant.ieee.math_complex.vhdl
     - match: \b(?i:true|false)\b
       scope: support.constant.std.standard.vhdl
   support_functions:
-    #- match: \b(?i:finish|stop|resolution_limit)\b
-    #  scope: support.function.std.env.vhdl
+    - match: \b(?i:finish|stop|resolution_limit)\b
+      scope: support.function.std.env.vhdl
     - match: \b(?i:readline|read|writeline|write|endfile|endline)\b
       scope: support.function.std.textio.vhdl
-    #- match: \b(?i:rising_edge|falling_edge|to_bit|to_bitvector|to_stdulogic|to_stdlogicvector|to_stdulogicvector|is_x)\b
-    - match: \b(?i:rising_edge|falling_edge|to_bit|to_bitvector|to_stdulogic|to_stdlogicvector|to_stdulogicvector)\b
+    - match: \b(?i:rising_edge|falling_edge|to_bit|to_bitvector|to_stdulogic|to_stdlogicvector|to_stdulogicvector|is_x)\b
       scope: support.function.ieee.std_logic_1164.vhdl
     - match: \b(?i:shift_left|shift_right|rotate_left|rotate_right|resize|to_integer|to_unsigned|to_signed)\b
       scope: support.function.ieee.numeric_std.vhdl
-    #- match: \b(?i:arccos(h?)|arcsin(h?)|arctan|arctanh|cbrt|ceil|cos|cosh|exp|floor|log10|log2|log|realmax|realmin|round|sign|sin|sinh|sqrt|tan|tanh|trunc)\b
-    - match: \b(?i:log2)\b
+    - match: \b(?i:arccos(h?)|arcsin(h?)|arctan|arctanh|cbrt|ceil|cos|cosh|exp|floor|log10|log2|log|realmax|realmin|round|sign|sin|sinh|sqrt|tan|tanh|trunc)\b
       scope: support.function.ieee.math_real.vhdl
-    #- match: \b(?i:arg|cmplx|complex_to_polar|conj|get_principal_value|polar_to_complex)\b
-    #  scope: support.function.ieee.math_complex.vhdl
+    - match: \b(?i:arg|cmplx|complex_to_polar|conj|get_principal_value|polar_to_complex)\b
+      scope: support.function.ieee.math_complex.vhdl
   support_types:
-    #- match: \b(?i:boolean|bit|character|severity_level|integer|real|time|delay_length|now|natural|positive|string|bit_vector|file_open_kind|file_open_status|fs|ps|ns|us|ms|sec|min|hr|severity_level|note|warning|error|failure)\b
-    - match: \b(?i:boolean|bit|severity_level|integer|real|time|now|natural|positive|string|bit_vector|ps|ns|us|ms|sec|min|hr|severity_level|note|warning|error|failure)\b
+    - match: \b(?i:boolean|bit|character|severity_level|integer|real|time|delay_length|now|natural|positive|string|bit_vector|file_open_kind|file_open_status|fs|ps|ns|us|ms|sec|min|hr|severity_level|note|warning|error|failure)\b
       scope: support.type.std.standard.vhdl
-    #- match: \b(?i:line|text|side|width|input|output)\b
-    - match: \b(?i:line|text|width|input|output)\b
+    - match: \b(?i:line|text|side|width|input|output)\b
       scope: support.type.std.textio.vhdl
     - match: \b(?i:std_logic|std_ulogic|std_logic_vector|std_ulogic_vector)\b
       scope: support.type.ieee.std_logic_1164.vhdl
     - match: \b(?i:signed|unsigned)\b
       scope: support.type.ieee.numeric_std.vhdl
-    #- match: \b(?i:complex|complex_polar)\b
-    #  scope: support.type.ieee.math_complex.vhdl
+    - match: \b(?i:complex|complex_polar)\b
+      scope: support.type.ieee.math_complex.vhdl
   syntax_highlighting:
     - include: keywords
-    #- include: punctuation
+    - include: punctuation
     - include: support_constants
     - include: support_types
     - include: support_functions
